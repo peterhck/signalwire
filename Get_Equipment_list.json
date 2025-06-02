@@ -1,0 +1,14 @@
+{
+  "name": "Get_Equipment_list",
+  "description": "Return recommended AV equipment for a panel discussion.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "data_prompt": {
+        "type": "string",
+        "description": "Short description of the event."
+      }
+    },
+    "required": ["data_prompt"]
+  }
+}
