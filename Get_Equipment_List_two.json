@@ -1,6 +1,6 @@
 [
   {
-    "function": "Get_Equipment_list",
+    "name": "Get_Equipment_list",
     "description": "Return recommended AV equipment for a panel discussion",
     "parameters": {
       "type": "object",
