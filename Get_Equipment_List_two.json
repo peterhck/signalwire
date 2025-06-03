@@ -1,13 +1,13 @@
 [
   {
-    "name": "Get_Equipment_list",
     "description": "Return recommended AV equipment for a panel discussion",
+    "function": "Get_Equipment_list",
     "parameters": {
       "type": "object",
       "properties": {
         "data_prompt": {
           "type": "string",
-          "description": "Short description of the event (e.g. '5-person panel, livestreamed')"
+          "description": "Short description of the event"
         }
       },
       "required": ["data_prompt"]
